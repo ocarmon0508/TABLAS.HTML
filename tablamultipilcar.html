@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  
+    <title>TABLAS MULTIPLICAR</title>
+</head>
+<body>
+
+<script>
+
+var salida="";
+var num_tabla = parseInt(prompt("dime la tabla de multiplicar:"));
+var aux_total = -1;
+for(var i=0 ; i<=10; i++){
+    aux_total = num_tabla * i;
+    salida = salida + aux_total + " = " + i + "x" + num_tabla + "<br>";
+}
+
+document.write(salida)
+
+</script>
+
+    
+</body>
+</html>
